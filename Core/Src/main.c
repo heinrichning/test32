@@ -107,6 +107,7 @@ int main(void)
         HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
       }
       HAL_Delay(20);
+      HAL_Delay(40);
     }
     // HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
     /* USER CODE END WHILE */
