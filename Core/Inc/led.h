@@ -3,4 +3,6 @@
 
 #include "stm32f1xx_hal.h"
 
+void led_on(void);
+
 #endif
